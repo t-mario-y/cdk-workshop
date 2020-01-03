@@ -24,6 +24,7 @@
     "@aws-cdk/aws-apigateway": "^1.19.0",
     "@aws-cdk/aws-dynamodb": "^1.19.0",
     "@aws-cdk/aws-lambda": "^1.19.0",
-    "@aws-cdk/core": "^1.19.0"
+    "@aws-cdk/core": "^1.19.0",
+    "cdk-dynamo-table-viewer": "^3.0.7"
   }
 }
