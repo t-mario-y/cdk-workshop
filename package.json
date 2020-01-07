@@ -13,6 +13,8 @@
   "devDependencies": {
     "@aws-cdk/assert": "^1.19.0",
     "@aws-cdk/aws-apigateway": "^1.19.0",
+    "@aws-cdk/aws-events": "^1.19.0",
+    "@aws-cdk/aws-events-targets": "^1.19.0",
     "@aws-cdk/aws-lambda": "^1.19.0",
     "@aws-cdk/core": "^1.19.0",
     "@types/aws-lambda": "^8.10.39",
