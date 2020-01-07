@@ -9,7 +9,7 @@ export class CdkWorkshopStack extends cdk.Stack {
     // Lambdaリソースを定義
     const hello = new lambda.Function(this, 'HelloHandler', {
       runtime: lambda.Runtime.NODEJS_12_X,
-      code: lambda.Code.asset('lambda'),
+      code: lambda.Code.fromAsset('lambda'),
       handler: 'hello.handler'
     });
 
