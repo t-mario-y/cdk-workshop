@@ -1,6 +1,4 @@
-export const handler: AWSLambda.Handler = async (
-  event: AWSLambda.APIGatewayEvent
-) => {
+export const handler: AWSLambda.Handler = async (event: AWSLambda.APIGatewayEvent) => {
   console.log('request:', JSON.stringify(event, undefined, 2));
   return {
     statusCode: 200,
